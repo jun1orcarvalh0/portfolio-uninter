@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Metadados básicos da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <div class="header-content">
+            <!-- Logotipo com link para a página inicial -->
+            <div class="logo">
+                <h1><a href="index.html">Antonio Marcos</a></h1>
+            </div>
+            <!-- Navegação com links para outras páginas -->
+            <nav>
+                <ul>
+                    <li><a href="sobre.html">Sobre Mim</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção de contato -->
+        <section class="contact">
+            <h2>Entre em contato comigo!</h2>
+            <!-- Formulário de contato -->
+            <form>
+                <!-- Campo para o nome -->
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <!-- Campo para o email -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <!-- Campo para a mensagem -->
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <!-- Botão para enviar o formulário -->
+                <button type="submit" value="Enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Antonio Marcos</p>
+    </footer>
+</body>
+</html>
